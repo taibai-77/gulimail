@@ -1,0 +1,29 @@
+server:
+  port: 8016
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 8.134.216.243:8848
+    loadbalancer:
+      retry:
+        enabled: true
+    gateway:
+      routes:
+        - id: product_route
+          uri: lb://product
+          predicates:
+            - Path=/api/product/**
+          filters:
+            - RewritePath=/api/(?<segment>.*),/$\{segment}
+        - id: admin_route
+          uri: lb://admin
+          predicates:
+            - Path=/api/**
+          filters:
+            - RewritePath=/api/(?<segment>.*),/renren-fast/$\{segment}
+  application:
+    name: gateway
+logging:
+  level:
+    Root : debug
