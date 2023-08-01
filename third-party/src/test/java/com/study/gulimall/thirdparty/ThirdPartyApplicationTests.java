@@ -26,9 +26,9 @@ public class ThirdPartyApplicationTests {
     @Test
     public void testUpload() throws Exception {
         // Endpoint以华东1（杭州）为例，其它Region请按实际情况填写。
-        //String endpoint = "oss-cn-shenzhen.aliyuncs.com";
-        //String accessKeyID = "LTAI5tEzcdBLLdDvABUb74UH";
-        //String accessKeySecret = "1Vae2OI0JIWpKADciWIf6KACavOkCX";
+        //String endpoint = "";
+        //String accessKeyID = "";
+        //String accessKeySecret = "";
         // 创建OSSClient实例。
         //OSS ossClient = new OSSClientBuilder().build(endpoint, accessKeyID, accessKeySecret);
 
