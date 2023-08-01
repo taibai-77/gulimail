@@ -1,0 +1,9 @@
+server:
+  port: 8017
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 8.134.216.243:8848
+  application:
+    name: third-party

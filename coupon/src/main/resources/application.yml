@@ -1,17 +1,12 @@
 server:
   port: 8014
 spring:
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://8.134.216.243:3310/sms?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
-    username: root
-    password: root
+  application:
+    name: coupon
   cloud:
     nacos:
       discovery:
         server-addr: 8.134.216.243:8848
-  application:
-    name: coupon
 
 # MapperScan
 # sql映射文件位置
