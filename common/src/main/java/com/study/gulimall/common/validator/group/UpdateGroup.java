@@ -9,11 +9,10 @@
 package com.study.gulimall.common.validator.group;
 
 /**
- * 更新数据 Group
- *
- * @author Mark sunlightcs@gmail.com
+ * @Author: name
+ * @Date: 2023-08-03-3:40
+ * @Description: 更新数据
  */
-
 public interface UpdateGroup {
 
 }

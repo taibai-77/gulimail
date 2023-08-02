@@ -9,9 +9,9 @@
 package com.study.gulimall.common.validator.group;
 
 /**
- * 新增数据 Group
- *
- * @author Mark sunlightcs@gmail.com
+ * @Author: name
+ * @Date: 2023-08-03-3:39
+ * @Description: 添加数据
  */
 public interface AddGroup {
 }
