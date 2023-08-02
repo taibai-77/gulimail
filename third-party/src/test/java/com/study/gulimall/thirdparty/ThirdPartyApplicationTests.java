@@ -1,6 +1,6 @@
 package com.study.gulimall.thirdparty;
 
-import com.aliyun.oss.OSSClient;
+import com.aliyun.oss.OSS;
 import com.aliyun.oss.model.PutObjectRequest;
 import com.aliyun.oss.model.PutObjectResult;
 import org.junit.Test;
@@ -21,7 +21,7 @@ public class ThirdPartyApplicationTests {
     }
 
     @Autowired
-    OSSClient ossClient;
+    OSS ossClient;
 
     @Test
     public void testUpload() throws Exception {
